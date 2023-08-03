@@ -17,10 +17,10 @@ body {
 }
 
 .button-top {
-    background-color:rgb(0, 123, 255);
-    padding: 6px 30px;
-    border-radius: 6px;
-    font-weight: bold;
+    background-color:rgb(33, 135, 244);
+    padding: 9px 34px;
+    border-radius: 8px;
+    font-weight:550;
     font-size: 17px;
     border: none;
     display: flex;
@@ -36,7 +36,7 @@ a {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 25px;
     margin: 0;
     padding: 0;
     font-size: large;
@@ -58,22 +58,29 @@ ul {
 .top-content {
     display: flex;
     
-    height:400px;
+    height:320px;
     justify-content:space-evenly;
     align-items: center;
     
     }
    
     .t-left {
-        max-width: 500px;
+        max-width: 460px;
+        margin-left: 30px;
+        margin-right: -150px;
     }
 
 .top-place {
-    background-color: grey;
-    padding: 120px;
+    background-color:rgb(106, 102, 102);
+    padding: 110px 140px;
     max-width: fit-content;
 }
 .top-head {
     font-weight: bold;
     font-size:50px;
+    margin-bottom: 8px ;
+}
+.top-info {
+    margin-bottom: 16px;
+    font-size: large;
 }
