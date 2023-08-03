@@ -24,6 +24,7 @@ body {
     border: none;
     display: flex;
     flex-shrink: 0;
+    max-width: fit-content;
 }
 a {
     text-decoration: none;
@@ -48,4 +49,13 @@ ul {
 .top-logo {
     font-size:medium;
     font-weight: bold;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+}
+.top-place {
+    background-color: grey;
+    
 }
