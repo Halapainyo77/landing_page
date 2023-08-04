@@ -93,28 +93,29 @@ ul {
     text-align: center;
 }
 .random-header {
-    font-size:37px;
-    font-weight: 740;
+    font-size:36px;
+    font-weight: 750;
     margin-top: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .box {
     border: solid rgb(33, 135, 244) 4px;
-    padding: 50px;
-    width: 50px;
-    border-radius: 10px;
+    padding: 80px 80px;
+    max-width: 80px;
+    border-radius: 12px;
+    margin-bottom: 8px;
 }
 
 .text {
-    font-size: large;
+    font-size: 18px;
     color: rgb(109, 107, 107);
-    max-width: 300px;
+    max-width: 170px;
 }
 
 .random-container {
     display: flex;
     justify-content: center;
     
-    gap: 20px;
+    gap: 50px;
 }
