@@ -89,7 +89,7 @@ ul {
 
 .random-info-section {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
-    height: 510px;
+    height: 490px;
     text-align: center;
 }
 .random-header {
@@ -118,4 +118,33 @@ ul {
     justify-content: center;
     
     gap: 50px;
+}
+
+/* next section */
+
+.quote-section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    height: 425px;
+    text-align: center;
+    background-color: rgb(210, 204, 204);
+}
+
+
+
+
+/* next section */
+
+.signup-section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    height: 350px;
+    text-align: center;
+}
+
+/* next section */
+
+.bottom-section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(27, 36, 60);
 }
