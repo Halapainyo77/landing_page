@@ -54,6 +54,8 @@ ul {
     font-size:23px;
     font-weight: bold;
 }
+/* next section */
+
 
 .top-content {
     display: flex;
@@ -154,7 +156,38 @@ ul {
 .signup-section {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
     height: 350px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color:rgb(33, 135, 244) ;
+    border-radius: 7px;
+    padding: 50px 195px ;
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+.call-text {
+    font-size:x-large;
+    color: white;
+    font-weight: 600;
+}
+.call-small {
+    color: rgb(206, 206, 206);
+    font-size: large;
+}
+.sign-up-button {
+    background-color:rgb(33, 135, 244);
+    color: white;
+    padding: 1px 20px;
+    font-size: 17px;
+    font-weight: 550;
+    border-radius: 6px;
+    border: solid 2px white;
+    
+    
 }
 
 /* next section */
