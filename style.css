@@ -164,10 +164,11 @@ ul {
 .blue-box {
     background-color:rgb(33, 135, 244) ;
     border-radius: 7px;
-    padding: 50px 195px ;
+    padding: 50px 161px ;
     max-width: fit-content;
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
 }
 .call-text {
     font-size:x-large;
@@ -181,13 +182,21 @@ ul {
 .sign-up-button {
     background-color:rgb(33, 135, 244);
     color: white;
-    padding: 1px 20px;
+    padding: 8px 32px;
     font-size: 17px;
     font-weight: 550;
-    border-radius: 6px;
+    border-radius: 8px;
     border: solid 2px white;
+    padding-bottom: 6px;
+    margin-bottom: 4px;
     
-    
+}
+.box-left {
+    margin-left: -50px;
+    margin-right: 160px;
+}
+.box-right {
+    margin-right: -40px;
 }
 
 /* next section */
